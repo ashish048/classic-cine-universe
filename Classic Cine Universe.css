@@ -70,7 +70,7 @@ body{
 	font-family: roboto;
 	}
 .dinesh p {
-	font-family: roboto;
+	font-family: arial;
 	font-size: 20px;
 	text-align: justify;
 	color: white;
@@ -117,14 +117,78 @@ body{
 	width: 100%;
 	height: 100%;
 }
+.projects .col1 , .col2, .col3{
+	border-right-style: dotted ;
+	border-color: #046081;
+}
+.films{
+	padding: 50px 120px 0px 120px;
+
+}
+.films ul li {
+	list-style: none;
+
+}
+.films ul li a{
+	text-decoration: none;
+	color: #046081;
+	font-size: 18px;
+}
+.films ul li a:hover{
+	
+	color: red;
+}
+
+.projects p{
+	font-size: 20px;
+	padding: 20px 0px 20px 0px;
+}
 
 .equipments img{
 	width: 100%;
 	height: 100%;
 }
-.testimonial img{
-	width: 100%;
-	height: 100%;
+.testimonial .row{
+	padding: 50px 100px 50px 100px;
+}
+.testimonial p{
+	text-transform: uppercase;
+	font-size: 18px;
+}
+.testimonial .text {
+	margin-top: 50px;
+	margin-left: 100px;
+	color : white;
+	width: 400px;
+	background-color: red;
+	border-radius: 0px 20px 0px 0px;
+}
+.testimonial h3{
+	padding: 15px;
+}
+.testimonial h4, h6{
+	color:#046081; 
+
+
+}
+.testimonial h4{
+	font-size: 18px;
+}
+.testimonial h6{
+	font-size: 15px;
+}
+.testimonial .content{
+	margin-top: 40px;
+}
+.testimonial .carousel button{
+	display: none;
+}
+.testimonial .carousel img{
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+	border:5px solid;
+	border-color:#046081; 
 }
 .gallery img{
 	width: 100%;
@@ -134,3 +198,28 @@ body{
 	width: 100%;
 	height: 100%;
 }
+
+@media only screen and (max-width: 600px) {
+.background1 p{
+	font-size: 20px;
+	padding : 50px 10px 0px 10px ;
+}
+
+	.dinesh .row{
+	padding: 10px 10px 10px 10px;
+}
+.services .row {
+	padding: 0px 10px 30px 10px;
+
+}
+.services .text{
+	margin-left: 0px;
+}
+.films{
+	margin-top: 10px;
+	padding: 0px 0px 0px 0px;
+
+}
+
+
+
